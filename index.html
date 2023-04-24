@@ -4,15 +4,25 @@
         <meta charset="UTF-8">
         <title>Meeting Minutes - Magic 8ball Brainstorm</title>
         <link rel="icon" href="media/favicon.jpeg">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+          @media print, screen {
+            nav ol li a {
+              color: #fff;
+              text-decoration: none;
+              position: static;
+            }
+          }
+        </style>
     </head>
     <body>
         <header>
             <h1>Meeting Minutes</h1>
             <nav>
-              <ol>
-                <li><a href="#brainstorming">Brainstorming</a></li>
-                <li><a href="#check-ins">Check-ins</a></li>
-                <li><a href="#documentation">Documentation</a></li>
+              <ol class="flex-container">
+                <li class = "flex-child"><a href="#brainstorming">Brainstorming</a></li>
+                <li class = "flex-child"><a href="#check-ins">Check-ins</a></li>
+                <li class = "flex-child"><a href="#documentation">Documentation</a></li>
               </ol>
             </nav>
           </header>
@@ -105,8 +115,8 @@
         </form>
     </div>
     <details>
-        <summary>Click for more information</summary>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Here is some additional information.</a>
+        <summary style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Click for more information</summary>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" style="font-family: Helvetica">Here is some additional information.</a>
     </details>
     <footer>
         <p>Next meeting: April 23rd, 2pm</p>
