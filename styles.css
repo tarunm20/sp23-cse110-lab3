@@ -169,6 +169,7 @@ footer {
 
 footer p {
     margin: 10px 20px 30px 40px;
+    color: #fff;
 }
 
 .flex-container {
@@ -190,7 +191,47 @@ footer p {
     justify-items: center;
 }
 
-.child {
+.grid-child {
     height: 100px;
     background-color: #ccc;
+}
+
+#diagram {
+    font-family: monospace;
+}
+
+#audio {
+    font-family: monospace;
+}
+
+#video {
+    font-family: monospace;
+}
+
+* {
+    color:#000
+}
+
+h4[id] {
+    font-size: 200%;
+}
+
+.grid-container li {
+    font-weight: bold;
+}
+
+ul > li {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+li + li {
+    margin-top: 10px;
+}
+
+li.flex-child {
+    font-size: 150%;
+}
+
+h2 ~ p {
+    color: green;
 }
